@@ -1,0 +1,56 @@
+.post {
+  position: relative;
+  width: 300px;
+  height: 420px;
+  background-color: #3343ac;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+}
+
+.imgContainer {
+  position: relative;
+  flex: 1;
+}
+
+.img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px 25px 0 0;
+}
+
+.fav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #bb0505;
+}
+
+.info {
+  background-color: #f3f0ff;
+  padding: 10px;
+  border-radius: 0 0 25px 25px;
+  text-decoration: none;
+}
+
+.label {
+  margin-bottom: 10px;
+  color: #1a1a22;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.details {
+  color: #1a1a22;
+  font-size: 20px;
+  text-decoration: none;
+}
+.para {
+  text-decoration: none;
+}
+.link {
+  text-decoration: none;
+}

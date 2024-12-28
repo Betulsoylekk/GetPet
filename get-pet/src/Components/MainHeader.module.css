@@ -1,0 +1,137 @@
+.navMenu {
+  display: flex;
+}
+.header {
+  /* padding: 2rem 10%; */
+  width: auto;
+  margin: 0;
+  text-align: center;
+  display: grid;
+  height: 100px;
+  background-color: #3343ac;
+  grid-template-columns: 1fr 9.4fr 2.6fr;
+}
+
+@media (max-width: 1516px) {
+  .header {
+    width: 2020px;
+  }
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 25px;
+  align-content: center;
+}
+
+.heading {
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  color: #f3f0ff;
+
+  text-decoration: none;
+}
+.logoImg {
+  width: 60px;
+  align-self: center;
+}
+.navContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #3343ac;
+}
+.navButton {
+  padding: 0;
+  /* border-right: 2px solid 404040; */
+
+  /* height: 46px; */
+  /* display: inline-block; */
+  /* justify-content: center; */
+  /* height: 50px; */
+  background-color: transparent;
+  border: none;
+  /* position: relative;
+  display: grid;
+  grid-template-columns: 1.4fr 0.6fr;
+  grid-template-rows: 1fr; */
+  display: flex;
+  gap: 10px;
+  text-decoration: none;
+}
+.noftificationButton {
+  height: 50px;
+  width: 50px;
+
+  background-color: #3343ac;
+  border: none;
+
+  display: flex;
+  /* gap: 15px; */
+  text-decoration: none;
+  z-index: 2;
+  padding: 0;
+}
+.menuButton {
+  height: 50px;
+  width: 50px;
+
+  background-color: #3343ac;
+  border: none;
+
+  display: flex;
+  /* gap: 15px; */
+  text-decoration: none;
+  padding: 0;
+}
+.top {
+  z-index: 3;
+}
+.navImg {
+  /* position: absolute; */
+  /* right: 25%;
+  top: 70%; */
+  width: 56.25px;
+  padding: 0;
+}
+.navMsg {
+  /* position: absolute; */
+  /* right: 25%;
+  top: 70%; */
+  width: 56.25px;
+  padding: 0;
+  z-index: 0;
+}
+.Link {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #eceaf2;
+  color: #2a2630;
+  border: none;
+  border-radius: 4px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); */
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.Link:hover {
+  background-color: #8c6cf7;
+}
+.signIn {
+  align-self: center;
+  color: #f3f6f4;
+  border: none;
+  text-decoration: none;
+  width: max-content;
+}
+.userContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

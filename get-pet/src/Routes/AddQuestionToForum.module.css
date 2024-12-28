@@ -1,0 +1,113 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  width: 1000px;
+  padding: 50px 150px;
+  background-color: #3343ac;
+  border-radius: 25px;
+  margin-left: 15vw;
+  gap: 10px;
+}
+
+.mainHeader {
+  font-size: 42px;
+  color: #f3f0ff;
+  margin-top: 0;
+  text-align: center;
+}
+
+.listingContainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  /* align-items: baseline; */
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: center;
+}
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 5% 15% 10% 15%;
+  align-items: center;
+  gap: 50px;
+}
+
+.input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 24px;
+  color: #1a1a22;
+}
+.inputDetails {
+  width: 80%;
+  padding: 15px;
+
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  resize: none;
+  font-size: 24px;
+}
+.inputFile {
+  display: block;
+  background-color: #f3f6f4;
+  font-size: 24px;
+}
+.label {
+  text-align: center;
+  font-size: 36px;
+  color: #ffba49;
+}
+
+.divContainer > select {
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 24px;
+  color: #1a1a22;
+}
+
+.divContainer > select > option {
+  font-size: 24px;
+}
+
+.submitButton {
+  margin-top: 10px;
+  width: 180px;
+  padding: 10px 36px;
+  background-color: #c97288;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.cancelButton {
+  margin-top: 10px;
+  width: 100px;
+  padding: 10px 36px;
+  background-color: #f3f0ff;
+  color: #c97288;
+  border: none;
+  border-radius: 25px;
+  font-size: 30px;
+  cursor: pointer;
+  text-decoration: none;
+}

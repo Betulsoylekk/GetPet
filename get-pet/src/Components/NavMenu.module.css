@@ -1,0 +1,28 @@
+.container {
+  display: inline-block;
+}
+.navMenu {
+  display: grid;
+  float: right;
+  background-color: #f3f0ff;
+  /* padding: 5px 10px 5px 10px; */
+  grid-template-rows: 1fr 1fr 1fr;
+  border-radius: 10%;
+  width: 250px;
+  padding: 40px 0;
+}
+.link {
+  text-decoration: none;
+  color: #1a1a22;
+  background-color: transparent;
+
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link:hover {
+  background-color: #ebe8f7;
+}

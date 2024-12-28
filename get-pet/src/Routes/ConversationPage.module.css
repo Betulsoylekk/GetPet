@@ -1,0 +1,36 @@
+.container {
+  background-color: #f3f0ff;
+  padding: 50px;
+  border-radius: 25px;
+}
+.userName {
+  font-size: 40px;
+}
+.text {
+  font-size: 36px;
+}
+.sendButton {
+  width: 180px;
+  padding: 10px 36px;
+  background-color: #c97288;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 30px;
+  cursor: pointer;
+  align-self: center;
+}
+.input {
+  width: 80%;
+  padding: 10px;
+
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 24px;
+  color: #1a1a22;
+}
+.sendContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}

@@ -1,0 +1,48 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+}
+.profileContainer {
+  background-color: #f3f0ff;
+  padding: 35px;
+  border-radius: 25px;
+  font-size: 36px;
+}
+.heading {
+  font-size: 42px;
+  color: #1a1a22;
+}
+.completeProfile {
+  font-size: 42px;
+  color: #3343ac;
+}
+.postContainer {
+  display: grid;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 350px;
+  grid-template-rows: repeat(1fr 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 300px;
+  grid-column-gap: 50px;
+}
+.post {
+  background-color: #f3f6f4;
+  width: 200px;
+  height: 200px;
+
+  display: grid;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.questionContainer {
+  display: grid;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 300px;
+  /* grid-template-rows: repeat(1fr 1fr); */
+  grid-template-columns: 1fr;
+  grid-row-gap: 100px;
+}

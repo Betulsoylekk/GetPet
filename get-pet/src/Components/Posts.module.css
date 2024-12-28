@@ -1,0 +1,19 @@
+.postContainer {
+  display: grid;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 48px;
+  grid-template-rows: repeat(1fr 1fr);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-row-gap: 300px;
+}
+.post {
+  background-color: #f3f6f4;
+  width: 200px;
+  height: 200px;
+
+  display: grid;
+  gap: 150px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}

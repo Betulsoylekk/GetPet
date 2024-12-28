@@ -1,0 +1,8 @@
+.currentPage {
+  display: flex;
+  gap: 48px;
+  flex-direction: row;
+  margin-top: 48px;
+  margin-left: 48px;
+  width: 100vw; /* Use viewport width to fill the entire width of the page */
+}

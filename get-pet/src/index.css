@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #dcd9fc;
+  /* background-image: linear-gradient(#615b5b, #404040); */
+
+  width: 133.3%;
+  height: 133.3%;
+  transform: scale(0.75);
+  transform-origin: top left;
+}
+* {
+  font-family: "Montserrat", sans-serif;
+}

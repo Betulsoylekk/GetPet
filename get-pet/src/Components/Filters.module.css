@@ -1,0 +1,153 @@
+.tabs {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 45px;
+  /* margin-bottom: -1px; */
+}
+.tab {
+  background-color: #f3f6f4;
+  color: #404040;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+  border: none;
+  width: 200px;
+  border-radius: 20px 20px 0 0;
+  font-size: 20px;
+}
+.tabOpened {
+  background-color: #3343ac;
+  color: #f3f6f4;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  border: none;
+  width: 200px;
+  border-radius: 20px 20px 0 0;
+  border: none;
+}
+.mainContainer {
+  border-radius: 45px;
+  background: #3343ac;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 25px;
+  margin-top: 0px;
+}
+
+@media (max-width: 1516px) {
+  .mainContainer {
+    width: 95%; /* Set the width to 100% for smaller screens as well */
+    max-width: none; /* Remove the maximum width restriction */
+  }
+}
+.filterContainer {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 20px;
+  align-items: center;
+}
+.filterContainerTakeCare {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-start; */
+}
+.leftSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 0;
+}
+.innerWrapper {
+  display: grid;
+  grid-template-rows: 1fr fr;
+  /* grid-auto-flow: row; */
+  gap: 20px;
+  align-items: center;
+  margin-right: 50px;
+  /* width: 1160px; */
+}
+.innerFilter {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+
+  /* width: px; */
+  /* gap: 20px; */
+  /* background-image: linear-gradient(#615b5b, #404040); */
+}
+
+.filter > input {
+  border-radius: 20px;
+  width: 200px;
+  border: none;
+  font-size: 20px;
+
+  padding: 12px 10px;
+  /* margin: 0 0 10px 0; */
+  /* box-shadow: 10px 10px 50px #222121; */
+}
+
+.filter > label {
+  color: #f3f6f4;
+  background-color: #ffba49;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px;
+  /* box-shadow: 10px 10px 50px #222121; */
+  /* margin-bottom: 10px; */
+}
+
+.filter > select {
+  color: #404040;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  border: none;
+  width: 200px;
+  border-radius: 20px;
+  /* box-shadow: 10px 10px 50px #222121; */
+}
+.filter > select::placeholder {
+  font-size: 15px;
+}
+
+.filter > select option {
+  font-size: 15px;
+}
+
+.filterButton {
+  background-color: transparent;
+  border: none;
+  color: #c97288;
+}
+ion-icon {
+  font-size: 48px;
+}
+.newPostButton {
+  background-color: transparent;
+  border: none;
+  color: #c97288;
+}
+.warning {
+  color: #ffba49;
+  font-size: 20px;
+}
+.addQuestionImg {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  color: #c97288;
+}

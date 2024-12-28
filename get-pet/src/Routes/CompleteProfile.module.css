@@ -1,0 +1,94 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  width: 30%;
+  padding: 50px 100px;
+  background-color: #3343ac;
+  border-radius: 25px;
+  margin-left: 25vw;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 42px;
+  color: #f3f0ff;
+  margin-top: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.label {
+  font-size: 36px;
+  color: #f3f0ff;
+}
+
+.input,
+#userInfo {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 24px;
+  color: #1a1a22;
+}
+.select {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 24px;
+  color: #1a1a22;
+}
+
+#userInfo {
+  height: 150px;
+}
+
+.inputDetails {
+  width: 80%;
+  padding: 5px;
+
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  resize: none;
+  font-size: 15px;
+}
+.button {
+  margin-top: 10px;
+  width: max-content;
+  padding: 10px 36px;
+  background-color: #c97288;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #f3f0ff;
+  text-align: center;
+}
+.textarea {
+  border-radius: 25px;
+  font-size: 24px;
+  text-align: justify;
+  resize: none;
+}
+@media (max-width: 1516px) {
+  .container {
+    width: 1000px;
+  }
+}

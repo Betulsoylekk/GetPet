@@ -1,0 +1,68 @@
+/* Login form container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  width: fit-content;
+  padding: 50px 100px;
+  background-color: #3343ac;
+  border-radius: 25px;
+  margin-left: 35vw;
+  gap: 10px;
+}
+.heading {
+  font-size: 42px;
+  color: #f3f0ff;
+  margin-top: 0;
+}
+/* Username and password labels */
+.credential {
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #f3f0ff;
+}
+
+/* Username and password input fields */
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 24px;
+}
+
+/* Login button */
+.loginButton {
+  width: max-content;
+  padding: 10px 36px;
+  background-color: #c97288;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Signup and Forgot username links */
+.link {
+  margin-top: 20px;
+  font-size: 24px;
+  color: #f3f0ff;
+  text-decoration: none;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.link:hover,
+.loginButton:hover {
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 18px;
+  margin-top: 10px;
+}

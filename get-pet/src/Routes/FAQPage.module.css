@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px;
+  /* justify-content: center;
+  align-items: center; */
+}
+.heading {
+  font-size: 42px;
+  color: #1a1a22;
+  align-self: flex-start;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+.text {
+  text-align: justify;
+  font-size: 36px;
+}
+.pagesList {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+.pageButton {
+  background-color: #3343ac;
+  border-radius: 25px;
+  border: none;
+  color: #f3f0ff;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+.innerContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+.currentPage {
+  background-color: #f3f0ff;
+  border-radius: 25px;
+  padding: 50px;
+  width: 1200px;
+}
+.pageTitle {
+  text-align: center;
+}
+.pageText {
+  font-size: 24px;
+  text-align: justify;
+}
+
+.askBox {
+  height: max-content;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.form {
+  background-color: #f3f0ff;
+  padding: 50px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  font-size: 24px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.textArea {
+  border-radius: 25px;
+  font-size: 24px;
+  text-align: justify;
+  resize: none;
+}
+.askButton {
+  background-color: #c97288;
+  width: max-content;
+  border-radius: 25px;
+  border: none;
+  color: #f3f0ff;
+  font-size: 20px;
+  padding: 10px 20px;
+  align-self: flex-end;
+  margin-right: 50px;
+}
